@@ -1,2280 +1,2484 @@
-local function createGui(parent)
-	--ScreenGui1--
-	local ScreenGui1 = Instance.new("ScreenGui",parent)
-	ScreenGui1["ResetOnSpawn"] = false
-	ScreenGui1["Name"] = "MainScreenGui"
-	ScreenGui1["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
-	----ScreenGui1----
-	--Frame2--
-	local Frame2 = Instance.new("Frame",ScreenGui1)
-	Frame2["Visible"] = false
-	Frame2["Size"] = UDim2.new(0, 520, 0, 313)
-	Frame2["BackgroundTransparency"] = 0.30000001192092896
-	Frame2["Position"] = UDim2.new(0.0276679844, 0, 0.571428597, 0)
-	Frame2["BorderColor3"] = Color3.new(0, 0, 0)
-	Frame2["Name"] = "ChatBypasser"
-	Frame2["BorderSizePixel"] = 0
-	Frame2["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
-	----Frame2----
-	--UICorner3--
-	local UICorner3 = Instance.new("UICorner",Frame2)
-	UICorner3["CornerRadius"] = UDim.new(0, 10)
-	----UICorner3----
-	--TextButton4--
-	local TextButton4 = Instance.new("TextButton",Frame2)
-	TextButton4["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton4["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton4["Text"] = "Send Fuck"
-	TextButton4["TextSize"] = 14
-	TextButton4["Font"] = Enum.Font.SourceSans
-	TextButton4["BackgroundTransparency"] = 0.5
-	TextButton4["Position"] = UDim2.new(0.0632260814, 0, 0.218993366, 0)
-	TextButton4["Name"] = "Send Fuck"
-	TextButton4["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton4["BorderSizePixel"] = 0
-	TextButton4["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton4----
-	--UICorner5--
-	local UICorner5 = Instance.new("UICorner",TextButton4)
-	----UICorner5----
-	--Script6--
-	local Script6 = Instance.new("Script",TextButton4)
-	----Script6----
-	--TextButton7--
-	local TextButton7 = Instance.new("TextButton",Frame2)
-	TextButton7["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton7["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton7["Text"] = "Send Shit"
-	TextButton7["TextSize"] = 14
-	TextButton7["Font"] = Enum.Font.SourceSans
-	TextButton7["BackgroundTransparency"] = 0.5
-	TextButton7["Position"] = UDim2.new(0.0632260814, 0, 0.410686642, 0)
-	TextButton7["Name"] = "Send Shit"
-	TextButton7["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton7["BorderSizePixel"] = 0
-	TextButton7["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton7----
-	--UICorner8--
-	local UICorner8 = Instance.new("UICorner",TextButton7)
-	----UICorner8----
-	--Script9--
-	local Script9 = Instance.new("Script",TextButton7)
-	----Script9----
-	--TextLabel10--
-	local TextLabel10 = Instance.new("TextLabel",Frame2)
-	TextLabel10["TextColor3"] = Color3.new(1, 1, 1)
-	TextLabel10["BorderColor3"] = Color3.new(0, 0, 0)
-	TextLabel10["Text"] = "NewID Chat Bypasser"
-	TextLabel10["TextSize"] = 24
-	TextLabel10["Font"] = Enum.Font.SourceSansBold
-	TextLabel10["BackgroundTransparency"] = 1
-	TextLabel10["Position"] = UDim2.new(0.306017846, 0, -0.0007843895, 0)
-	TextLabel10["Name"] = "Title"
-	TextLabel10["Size"] = UDim2.new(0, 200, 0, 50)
-	TextLabel10["BorderSizePixel"] = 0
-	TextLabel10["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextLabel10----
-	--Script11--
-	local Script11 = Instance.new("Script",Frame2)
-	Script11["Name"] = "Drag"
-	----Script11----
-	--TextButton12--
-	local TextButton12 = Instance.new("TextButton",Frame2)
-	TextButton12["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton12["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton12["Text"] = "Send Bitch"
-	TextButton12["TextSize"] = 14
-	TextButton12["Font"] = Enum.Font.SourceSans
-	TextButton12["BackgroundTransparency"] = 0.5
-	TextButton12["Position"] = UDim2.new(0.0632260814, 0, 0.602379918, 0)
-	TextButton12["Name"] = "Send Bitch"
-	TextButton12["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton12["BorderSizePixel"] = 0
-	TextButton12["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton12----
-	--UICorner13--
-	local UICorner13 = Instance.new("UICorner",TextButton12)
-	----UICorner13----
-	--Script14--
-	local Script14 = Instance.new("Script",TextButton12)
-	----Script14----
-	--TextBox15--
-	local TextBox15 = Instance.new("TextBox",Frame2)
-	TextBox15["TextWrapped"] = true
-	TextBox15["TextColor3"] = Color3.new(1, 1, 1)
-	TextBox15["BorderColor3"] = Color3.new(0, 0, 0)
-	TextBox15["Text"] = ""
-	TextBox15["Size"] = UDim2.new(0, 159, 0, 40)
-	TextBox15["TextSize"] = 14
-	TextBox15["Font"] = Enum.Font.SourceSans
-	TextBox15["BackgroundTransparency"] = 0.6000000238418579
-	TextBox15["Position"] = UDim2.new(0.661787033, 0, 0.218993366, 0)
-	TextBox15["Name"] = "customtextbox"
-	TextBox15["PlaceholderText"] = "sentence/word here"
-	TextBox15["BorderSizePixel"] = 0
-	TextBox15["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextBox15----
-	--UICorner16--
-	local UICorner16 = Instance.new("UICorner",TextBox15)
-	UICorner16["CornerRadius"] = UDim.new(0, 10)
-	----UICorner16----
-	--TextButton17--
-	local TextButton17 = Instance.new("TextButton",Frame2)
-	TextButton17["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton17["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton17["Text"] = "Send"
-	TextButton17["TextSize"] = 14
-	TextButton17["Font"] = Enum.Font.SourceSans
-	TextButton17["BackgroundTransparency"] = 0.5
-	TextButton17["Position"] = UDim2.new(0.69976455, 0, 0.372347981, 0)
-	TextButton17["Name"] = "sendbuttonfortextbox"
-	TextButton17["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton17["BorderSizePixel"] = 0
-	TextButton17["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton17----
-	--UICorner18--
-	local UICorner18 = Instance.new("UICorner",TextButton17)
-	----UICorner18----
-	--Script19--
-	local Script19 = Instance.new("Script",TextButton17)
-	----Script19----
-	--TextButton20--
-	local TextButton20 = Instance.new("TextButton",Frame2)
-	TextButton20["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton20["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton20["Text"] = "Send CockSucker"
-	TextButton20["TextSize"] = 14
-	TextButton20["Font"] = Enum.Font.SourceSans
-	TextButton20["BackgroundTransparency"] = 0.5
-	TextButton20["Position"] = UDim2.new(0.334379941, 0, 0.218993366, 0)
-	TextButton20["Name"] = "Send CockSucker"
-	TextButton20["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton20["BorderSizePixel"] = 0
-	TextButton20["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton20----
-	--UICorner21--
-	local UICorner21 = Instance.new("UICorner",TextButton20)
-	----UICorner21----
-	--Script22--
-	local Script22 = Instance.new("Script",TextButton20)
-	----Script22----
-	--TextButton23--
-	local TextButton23 = Instance.new("TextButton",Frame2)
-	TextButton23["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton23["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton23["Text"] = "Send Cunt"
-	TextButton23["TextSize"] = 14
-	TextButton23["Font"] = Enum.Font.SourceSans
-	TextButton23["BackgroundTransparency"] = 0.5
-	TextButton23["Position"] = UDim2.new(0.334379941, 0, 0.410686642, 0)
-	TextButton23["Name"] = "Send Cunt"
-	TextButton23["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton23["BorderSizePixel"] = 0
-	TextButton23["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton23----
-	--UICorner24--
-	local UICorner24 = Instance.new("UICorner",TextButton23)
-	----UICorner24----
-	--Script25--
-	local Script25 = Instance.new("Script",TextButton23)
-	----Script25----
-	--TextButton26--
-	local TextButton26 = Instance.new("TextButton",Frame2)
-	TextButton26["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton26["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton26["Text"] = "Send Ass"
-	TextButton26["TextSize"] = 14
-	TextButton26["Font"] = Enum.Font.SourceSans
-	TextButton26["BackgroundTransparency"] = 0.5
-	TextButton26["Position"] = UDim2.new(0.334379941, 0, 0.602379918, 0)
-	TextButton26["Name"] = "Send Ass"
-	TextButton26["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton26["BorderSizePixel"] = 0
-	TextButton26["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton26----
-	--UICorner27--
-	local UICorner27 = Instance.new("UICorner",TextButton26)
-	----UICorner27----
-	--Script28--
-	local Script28 = Instance.new("Script",TextButton26)
-	----Script28----
-	--TextButton29--
-	local TextButton29 = Instance.new("TextButton",Frame2)
-	TextButton29["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton29["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton29["Text"] = "Send Whore"
-	TextButton29["TextSize"] = 14
-	TextButton29["Font"] = Enum.Font.SourceSans
-	TextButton29["BackgroundTransparency"] = 0.5
-	TextButton29["Position"] = UDim2.new(0.0632260814, 0, 0.78129369, 0)
-	TextButton29["Name"] = "Send Whore"
-	TextButton29["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton29["BorderSizePixel"] = 0
-	TextButton29["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton29----
-	--UICorner30--
-	local UICorner30 = Instance.new("UICorner",TextButton29)
-	----UICorner30----
-	--Script31--
-	local Script31 = Instance.new("Script",TextButton29)
-	----Script31----
-	--TextButton32--
-	local TextButton32 = Instance.new("TextButton",Frame2)
-	TextButton32["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton32["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton32["Text"] = "Send Asshole"
-	TextButton32["TextSize"] = 14
-	TextButton32["Font"] = Enum.Font.SourceSans
-	TextButton32["BackgroundTransparency"] = 0.5
-	TextButton32["Position"] = UDim2.new(0.334379941, 0, 0.78129369, 0)
-	TextButton32["Name"] = "Send Asshole"
-	TextButton32["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton32["BorderSizePixel"] = 0
-	TextButton32["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton32----
-	--UICorner33--
-	local UICorner33 = Instance.new("UICorner",TextButton32)
-	----UICorner33----
-	--Script34--
-	local Script34 = Instance.new("Script",TextButton32)
-	----Script34----
-	--TextButton35--
-	local TextButton35 = Instance.new("TextButton",Frame2)
-	TextButton35["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton35["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton35["Text"] = "Fix Tags"
-	TextButton35["TextSize"] = 14
-	TextButton35["Font"] = Enum.Font.SourceSans
-	TextButton35["BackgroundTransparency"] = 0.5
-	TextButton35["Position"] = UDim2.new(0.738226056, 0, 0.78129369, 0)
-	TextButton35["Name"] = "Fix Tags"
-	TextButton35["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton35["BorderSizePixel"] = 0
-	TextButton35["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton35----
-	--UICorner36--
-	local UICorner36 = Instance.new("UICorner",TextButton35)
-	----UICorner36----
-	--Script37--
-	local Script37 = Instance.new("Script",TextButton35)
-	----Script37----
-	--TextButton38--
-	local TextButton38 = Instance.new("TextButton",Frame2)
-	TextButton38["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton38["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton38["Text"] = "Switch Bypasser"
-	TextButton38["TextSize"] = 14
-	TextButton38["Font"] = Enum.Font.SourceSans
-	TextButton38["BackgroundTransparency"] = 0.5
-	TextButton38["Position"] = UDim2.new(0.738226056, 0, 0.650303245, 0)
-	TextButton38["Name"] = "OtherButton"
-	TextButton38["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton38["BorderSizePixel"] = 0
-	TextButton38["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton38----
-	--UICorner39--
-	local UICorner39 = Instance.new("UICorner",TextButton38)
-	----UICorner39----
-	--Script40--
-	local Script40 = Instance.new("Script",TextButton38)
-	----Script40----
-	--Frame41--
-	local Frame41 = Instance.new("Frame",ScreenGui1)
-	Frame41["Size"] = UDim2.new(0, 294, 0, 167)
-	Frame41["BackgroundTransparency"] = 0.10000000149011612
-	Frame41["Position"] = UDim2.new(0.354743093, 0, 0.394437432, 0)
-	Frame41["BorderColor3"] = Color3.new(0, 0, 0)
-	Frame41["Name"] = "Key System"
-	Frame41["BorderSizePixel"] = 0
-	Frame41["BackgroundColor3"] = Color3.new(0.172549, 0.172549, 0.172549)
-	----Frame41----
-	--UICorner42--
-	local UICorner42 = Instance.new("UICorner",Frame41)
-	UICorner42["CornerRadius"] = UDim.new(0, 10)
-	----UICorner42----
-	--TextBox43--
-	local TextBox43 = Instance.new("TextBox",Frame41)
-	TextBox43["TextColor3"] = Color3.new(1, 1, 1)
-	TextBox43["BorderColor3"] = Color3.new(0, 0, 0)
-	TextBox43["Text"] = ""
-	TextBox43["Font"] = Enum.Font.SourceSans
-	TextBox43["BackgroundTransparency"] = 0.6000000238418579
-	TextBox43["Position"] = UDim2.new(0.159863949, 0, 0.263473064, 0)
-	TextBox43["TextSize"] = 14
-	TextBox43["Size"] = UDim2.new(0, 200, 0, 50)
-	TextBox43["BorderSizePixel"] = 0
-	TextBox43["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextBox43----
-	--UICorner44--
-	local UICorner44 = Instance.new("UICorner",TextBox43)
-	UICorner44["CornerRadius"] = UDim.new(0, 10)
-	----UICorner44----
-	--TextButton45--
-	local TextButton45 = Instance.new("TextButton",Frame41)
-	TextButton45["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton45["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton45["Text"] = "Enter"
-	TextButton45["Font"] = Enum.Font.SourceSans
-	TextButton45["BackgroundTransparency"] = 0.5
-	TextButton45["Position"] = UDim2.new(0.295918375, 0, 0.640718579, 0)
-	TextButton45["TextSize"] = 14
-	TextButton45["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton45["BorderSizePixel"] = 0
-	TextButton45["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton45----
-	--UICorner46--
-	local UICorner46 = Instance.new("UICorner",TextButton45)
-	----UICorner46----
-	--Script47--
-	local Script47 = Instance.new("Script",TextButton45)
-	----Script47----
-	--Script48--
-	local Script48 = Instance.new("Script",Frame41)
-	----Script48----
-	--TextLabel49--
-	local TextLabel49 = Instance.new("TextLabel",Frame41)
-	TextLabel49["TextColor3"] = Color3.new(1, 1, 1)
-	TextLabel49["BorderColor3"] = Color3.new(0, 0, 0)
-	TextLabel49["Text"] = "NewID Chat Bypasser Key System"
-	TextLabel49["Font"] = Enum.Font.SourceSansBold
-	TextLabel49["BackgroundTransparency"] = 1
-	TextLabel49["Position"] = UDim2.new(0.159863949, 0, -0.0359281451, 0)
-	TextLabel49["TextSize"] = 18
-	TextLabel49["Size"] = UDim2.new(0, 200, 0, 50)
-	TextLabel49["BorderSizePixel"] = 0
-	TextLabel49["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextLabel49----
-	--Frame50--
-	local Frame50 = Instance.new("Frame",ScreenGui1)
-	Frame50["Visible"] = false
-	Frame50["Size"] = UDim2.new(0, 520, 0, 313)
-	Frame50["BackgroundTransparency"] = 0.30000001192092896
-	Frame50["Position"] = UDim2.new(0.352766812, 0, 0.1125158, 0)
-	Frame50["BorderColor3"] = Color3.new(0, 0, 0)
-	Frame50["Name"] = "ChatBypasser2"
-	Frame50["BorderSizePixel"] = 0
-	Frame50["BackgroundColor3"] = Color3.new(0.0784314, 0.0784314, 0.0784314)
-	----Frame50----
-	--UICorner51--
-	local UICorner51 = Instance.new("UICorner",Frame50)
-	UICorner51["CornerRadius"] = UDim.new(0, 10)
-	----UICorner51----
-	--TextLabel52--
-	local TextLabel52 = Instance.new("TextLabel",Frame50)
-	TextLabel52["TextColor3"] = Color3.new(1, 1, 1)
-	TextLabel52["BorderColor3"] = Color3.new(0, 0, 0)
-	TextLabel52["Text"] = "NewID Chat Bypasser v2"
-	TextLabel52["TextSize"] = 24
-	TextLabel52["Font"] = Enum.Font.SourceSansBold
-	TextLabel52["BackgroundTransparency"] = 1
-	TextLabel52["Position"] = UDim2.new(0.306017846, 0, -0.0007843895, 0)
-	TextLabel52["Name"] = "Title"
-	TextLabel52["Size"] = UDim2.new(0, 200, 0, 50)
-	TextLabel52["BorderSizePixel"] = 0
-	TextLabel52["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextLabel52----
-	--Script53--
-	local Script53 = Instance.new("Script",Frame50)
-	Script53["Name"] = "Drag"
-	----Script53----
-	--TextButton54--
-	local TextButton54 = Instance.new("TextButton",Frame50)
-	TextButton54["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton54["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton54["Text"] = "Send Ass"
-	TextButton54["TextSize"] = 14
-	TextButton54["Font"] = Enum.Font.SourceSans
-	TextButton54["BackgroundTransparency"] = 0.5
-	TextButton54["Position"] = UDim2.new(0.334379941, 0, 0.602379918, 0)
-	TextButton54["Name"] = "Send Ass"
-	TextButton54["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton54["BorderSizePixel"] = 0
-	TextButton54["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton54----
-	--UICorner55--
-	local UICorner55 = Instance.new("UICorner",TextButton54)
-	----UICorner55----
-	--Script56--
-	local Script56 = Instance.new("Script",TextButton54)
-	----Script56----
-	--TextButton57--
-	local TextButton57 = Instance.new("TextButton",Frame50)
-	TextButton57["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton57["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton57["Text"] = "Send Asshole"
-	TextButton57["TextSize"] = 14
-	TextButton57["Font"] = Enum.Font.SourceSans
-	TextButton57["BackgroundTransparency"] = 0.5
-	TextButton57["Position"] = UDim2.new(0.334379941, 0, 0.78129369, 0)
-	TextButton57["Name"] = "Send Asshole"
-	TextButton57["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton57["BorderSizePixel"] = 0
-	TextButton57["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton57----
-	--UICorner58--
-	local UICorner58 = Instance.new("UICorner",TextButton57)
-	----UICorner58----
-	--Script59--
-	local Script59 = Instance.new("Script",TextButton57)
-	----Script59----
-	--TextButton60--
-	local TextButton60 = Instance.new("TextButton",Frame50)
-	TextButton60["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton60["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton60["Text"] = "Send Bitch"
-	TextButton60["TextSize"] = 14
-	TextButton60["Font"] = Enum.Font.SourceSans
-	TextButton60["BackgroundTransparency"] = 0.5
-	TextButton60["Position"] = UDim2.new(0.0632260814, 0, 0.602379918, 0)
-	TextButton60["Name"] = "Send Bitch"
-	TextButton60["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton60["BorderSizePixel"] = 0
-	TextButton60["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton60----
-	--UICorner61--
-	local UICorner61 = Instance.new("UICorner",TextButton60)
-	----UICorner61----
-	--Script62--
-	local Script62 = Instance.new("Script",TextButton60)
-	----Script62----
-	--TextButton63--
-	local TextButton63 = Instance.new("TextButton",Frame50)
-	TextButton63["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton63["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton63["Text"] = "Send CockSucker"
-	TextButton63["TextSize"] = 14
-	TextButton63["Font"] = Enum.Font.SourceSans
-	TextButton63["BackgroundTransparency"] = 0.5
-	TextButton63["Position"] = UDim2.new(0.334379941, 0, 0.218993366, 0)
-	TextButton63["Name"] = "Send CockSucker"
-	TextButton63["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton63["BorderSizePixel"] = 0
-	TextButton63["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton63----
-	--UICorner64--
-	local UICorner64 = Instance.new("UICorner",TextButton63)
-	----UICorner64----
-	--Script65--
-	local Script65 = Instance.new("Script",TextButton63)
-	----Script65----
-	--TextButton66--
-	local TextButton66 = Instance.new("TextButton",Frame50)
-	TextButton66["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton66["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton66["Text"] = "Send Cunt"
-	TextButton66["TextSize"] = 14
-	TextButton66["Font"] = Enum.Font.SourceSans
-	TextButton66["BackgroundTransparency"] = 0.5
-	TextButton66["Position"] = UDim2.new(0.334379941, 0, 0.410686642, 0)
-	TextButton66["Name"] = "Send Cunt"
-	TextButton66["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton66["BorderSizePixel"] = 0
-	TextButton66["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton66----
-	--UICorner67--
-	local UICorner67 = Instance.new("UICorner",TextButton66)
-	----UICorner67----
-	--Script68--
-	local Script68 = Instance.new("Script",TextButton66)
-	----Script68----
-	--TextButton69--
-	local TextButton69 = Instance.new("TextButton",Frame50)
-	TextButton69["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton69["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton69["Text"] = "Send Fuck"
-	TextButton69["TextSize"] = 14
-	TextButton69["Font"] = Enum.Font.SourceSans
-	TextButton69["BackgroundTransparency"] = 0.5
-	TextButton69["Position"] = UDim2.new(0.0632260814, 0, 0.218993366, 0)
-	TextButton69["Name"] = "Send Fuck"
-	TextButton69["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton69["BorderSizePixel"] = 0
-	TextButton69["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton69----
-	--UICorner70--
-	local UICorner70 = Instance.new("UICorner",TextButton69)
-	----UICorner70----
-	--Script71--
-	local Script71 = Instance.new("Script",TextButton69)
-	----Script71----
-	--TextButton72--
-	local TextButton72 = Instance.new("TextButton",Frame50)
-	TextButton72["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton72["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton72["Text"] = "Send Shit"
-	TextButton72["TextSize"] = 14
-	TextButton72["Font"] = Enum.Font.SourceSans
-	TextButton72["BackgroundTransparency"] = 0.5
-	TextButton72["Position"] = UDim2.new(0.0632260814, 0, 0.410686642, 0)
-	TextButton72["Name"] = "Send Shit"
-	TextButton72["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton72["BorderSizePixel"] = 0
-	TextButton72["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton72----
-	--UICorner73--
-	local UICorner73 = Instance.new("UICorner",TextButton72)
-	----UICorner73----
-	--Script74--
-	local Script74 = Instance.new("Script",TextButton72)
-	----Script74----
-	--TextButton75--
-	local TextButton75 = Instance.new("TextButton",Frame50)
-	TextButton75["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton75["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton75["Text"] = "Send Whore"
-	TextButton75["TextSize"] = 14
-	TextButton75["Font"] = Enum.Font.SourceSans
-	TextButton75["BackgroundTransparency"] = 0.5
-	TextButton75["Position"] = UDim2.new(0.0632260814, 0, 0.78129369, 0)
-	TextButton75["Name"] = "Send Whore"
-	TextButton75["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton75["BorderSizePixel"] = 0
-	TextButton75["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton75----
-	--UICorner76--
-	local UICorner76 = Instance.new("UICorner",TextButton75)
-	----UICorner76----
-	--Script77--
-	local Script77 = Instance.new("Script",TextButton75)
-	----Script77----
-	--TextBox78--
-	local TextBox78 = Instance.new("TextBox",Frame50)
-	TextBox78["TextWrapped"] = true
-	TextBox78["TextColor3"] = Color3.new(1, 1, 1)
-	TextBox78["BorderColor3"] = Color3.new(0, 0, 0)
-	TextBox78["Text"] = ""
-	TextBox78["Size"] = UDim2.new(0, 159, 0, 40)
-	TextBox78["TextSize"] = 14
-	TextBox78["Font"] = Enum.Font.SourceSans
-	TextBox78["BackgroundTransparency"] = 0.6000000238418579
-	TextBox78["Position"] = UDim2.new(0.661787033, 0, 0.218993366, 0)
-	TextBox78["Name"] = "customtextbox"
-	TextBox78["PlaceholderText"] = "sentence/word here"
-	TextBox78["BorderSizePixel"] = 0
-	TextBox78["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextBox78----
-	--UICorner79--
-	local UICorner79 = Instance.new("UICorner",TextBox78)
-	UICorner79["CornerRadius"] = UDim.new(0, 10)
-	----UICorner79----
-	--TextButton80--
-	local TextButton80 = Instance.new("TextButton",Frame50)
-	TextButton80["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton80["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton80["Text"] = "Send"
-	TextButton80["TextSize"] = 14
-	TextButton80["Font"] = Enum.Font.SourceSans
-	TextButton80["BackgroundTransparency"] = 0.5
-	TextButton80["Position"] = UDim2.new(0.69976455, 0, 0.372347981, 0)
-	TextButton80["Name"] = "sendbuttonfortextbox"
-	TextButton80["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton80["BorderSizePixel"] = 0
-	TextButton80["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton80----
-	--UICorner81--
-	local UICorner81 = Instance.new("UICorner",TextButton80)
-	----UICorner81----
-	--Script82--
-	local Script82 = Instance.new("Script",TextButton80)
-	----Script82----
-	--TextButton83--
-	local TextButton83 = Instance.new("TextButton",Frame50)
-	TextButton83["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton83["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton83["Text"] = "Fix Tags"
-	TextButton83["TextSize"] = 14
-	TextButton83["Font"] = Enum.Font.SourceSans
-	TextButton83["BackgroundTransparency"] = 0.5
-	TextButton83["Position"] = UDim2.new(0.738226056, 0, 0.78129369, 0)
-	TextButton83["Name"] = "Fix Tags"
-	TextButton83["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton83["BorderSizePixel"] = 0
-	TextButton83["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton83----
-	--UICorner84--
-	local UICorner84 = Instance.new("UICorner",TextButton83)
-	----UICorner84----
-	--Script85--
-	local Script85 = Instance.new("Script",TextButton83)
-	----Script85----
-	--TextButton86--
-	local TextButton86 = Instance.new("TextButton",Frame50)
-	TextButton86["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton86["BorderColor3"] = Color3.new(0, 0, 0)
-	TextButton86["Text"] = "Switch Bypasser"
-	TextButton86["TextSize"] = 14
-	TextButton86["Font"] = Enum.Font.SourceSans
-	TextButton86["BackgroundTransparency"] = 0.5
-	TextButton86["Position"] = UDim2.new(0.738226056, 0, 0.650303245, 0)
-	TextButton86["Name"] = "OtherButton"
-	TextButton86["Size"] = UDim2.new(0, 119, 0, 33)
-	TextButton86["BorderSizePixel"] = 0
-	TextButton86["BackgroundColor3"] = Color3.new(0, 0, 0)
-	----TextButton86----
-	--UICorner87--
-	local UICorner87 = Instance.new("UICorner",TextButton86)
-	----UICorner87----
-	--Script88--
-	local Script88 = Instance.new("Script",TextButton86)
-	----Script88----
-	spawn(function() --Source for Script6
-		local script = Script6
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
+-- Instances: 88 | Scripts: 26 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- StarterGui.MainScreenGui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[MainScreenGui]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["1"]["ResetOnSpawn"] = false;
+
+
+-- StarterGui.MainScreenGui.ChatBypasser
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["Visible"] = false;
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["2"]["Size"] = UDim2.new(0, 520, 0, 313);
+G2L["2"]["Position"] = UDim2.new(0.02767, 0, 0.57143, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Name"] = [[ChatBypasser]];
+G2L["2"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+G2L["3"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Fuck
+G2L["4"] = Instance.new("TextButton", G2L["2"]);
+G2L["4"]["BorderSizePixel"] = 0;
+G2L["4"]["TextSize"] = 14;
+G2L["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["4"]["BackgroundTransparency"] = 0.5;
+G2L["4"]["Name"] = [[Send Fuck]];
+G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["Text"] = [[Send Fuck]];
+G2L["4"]["Position"] = UDim2.new(0.06323, 0, 0.21899, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Fuck.UICorner
+G2L["5"] = Instance.new("UICorner", G2L["4"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Fuck.LocalScript
+G2L["6"] = Instance.new("LocalScript", G2L["4"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Shit
+G2L["7"] = Instance.new("TextButton", G2L["2"]);
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["TextSize"] = 14;
+G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["7"]["BackgroundTransparency"] = 0.5;
+G2L["7"]["Name"] = [[Send Shit]];
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Text"] = [[Send Shit]];
+G2L["7"]["Position"] = UDim2.new(0.06323, 0, 0.41069, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Shit.UICorner
+G2L["8"] = Instance.new("UICorner", G2L["7"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Shit.LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["7"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Title
+G2L["a"] = Instance.new("TextLabel", G2L["2"]);
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["TextSize"] = 24;
+G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["BackgroundTransparency"] = 1;
+G2L["a"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Text"] = [[NewID Chat Bypasser]];
+G2L["a"]["Name"] = [[Title]];
+G2L["a"]["Position"] = UDim2.new(0.30602, 0, -0.00078, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Drag
+G2L["b"] = Instance.new("LocalScript", G2L["2"]);
+G2L["b"]["Name"] = [[Drag]];
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Bitch
+G2L["c"] = Instance.new("TextButton", G2L["2"]);
+G2L["c"]["BorderSizePixel"] = 0;
+G2L["c"]["TextSize"] = 14;
+G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["c"]["BackgroundTransparency"] = 0.5;
+G2L["c"]["Name"] = [[Send Bitch]];
+G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["Text"] = [[Send Bitch]];
+G2L["c"]["Position"] = UDim2.new(0.06323, 0, 0.60238, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Bitch.UICorner
+G2L["d"] = Instance.new("UICorner", G2L["c"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Bitch.LocalScript
+G2L["e"] = Instance.new("LocalScript", G2L["c"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.sendbuttonfortextbox
+G2L["f"] = Instance.new("TextButton", G2L["2"]);
+G2L["f"]["BorderSizePixel"] = 0;
+G2L["f"]["TextSize"] = 14;
+G2L["f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["f"]["BackgroundTransparency"] = 0.5;
+G2L["f"]["Name"] = [[sendbuttonfortextbox]];
+G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Text"] = [[Send]];
+G2L["f"]["Position"] = UDim2.new(0.7363, 0, 0.49695, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.sendbuttonfortextbox.UICorner
+G2L["10"] = Instance.new("UICorner", G2L["f"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.sendbuttonfortextbox.LocalScript
+G2L["11"] = Instance.new("LocalScript", G2L["f"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send CockSucker
+G2L["12"] = Instance.new("TextButton", G2L["2"]);
+G2L["12"]["BorderSizePixel"] = 0;
+G2L["12"]["TextSize"] = 14;
+G2L["12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["12"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["12"]["BackgroundTransparency"] = 0.5;
+G2L["12"]["Name"] = [[Send CockSucker]];
+G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12"]["Text"] = [[Send CockSucker]];
+G2L["12"]["Position"] = UDim2.new(0.33438, 0, 0.21899, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send CockSucker.UICorner
+G2L["13"] = Instance.new("UICorner", G2L["12"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send CockSucker.LocalScript
+G2L["14"] = Instance.new("LocalScript", G2L["12"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Cunt
+G2L["15"] = Instance.new("TextButton", G2L["2"]);
+G2L["15"]["BorderSizePixel"] = 0;
+G2L["15"]["TextSize"] = 14;
+G2L["15"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["15"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["15"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["15"]["BackgroundTransparency"] = 0.5;
+G2L["15"]["Name"] = [[Send Cunt]];
+G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15"]["Text"] = [[Send Cunt]];
+G2L["15"]["Position"] = UDim2.new(0.33438, 0, 0.41069, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Cunt.UICorner
+G2L["16"] = Instance.new("UICorner", G2L["15"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Cunt.LocalScript
+G2L["17"] = Instance.new("LocalScript", G2L["15"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Ass
+G2L["18"] = Instance.new("TextButton", G2L["2"]);
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["TextSize"] = 14;
+G2L["18"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["18"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["18"]["BackgroundTransparency"] = 0.5;
+G2L["18"]["Name"] = [[Send Ass]];
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Text"] = [[Send Ass]];
+G2L["18"]["Position"] = UDim2.new(0.33438, 0, 0.60238, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Ass.UICorner
+G2L["19"] = Instance.new("UICorner", G2L["18"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Ass.LocalScript
+G2L["1a"] = Instance.new("LocalScript", G2L["18"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Whore
+G2L["1b"] = Instance.new("TextButton", G2L["2"]);
+G2L["1b"]["BorderSizePixel"] = 0;
+G2L["1b"]["TextSize"] = 14;
+G2L["1b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1b"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["1b"]["BackgroundTransparency"] = 0.5;
+G2L["1b"]["Name"] = [[Send Whore]];
+G2L["1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b"]["Text"] = [[Send Whore]];
+G2L["1b"]["Position"] = UDim2.new(0.06323, 0, 0.78129, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Whore.UICorner
+G2L["1c"] = Instance.new("UICorner", G2L["1b"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Whore.LocalScript
+G2L["1d"] = Instance.new("LocalScript", G2L["1b"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Asshole
+G2L["1e"] = Instance.new("TextButton", G2L["2"]);
+G2L["1e"]["BorderSizePixel"] = 0;
+G2L["1e"]["TextSize"] = 14;
+G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1e"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["1e"]["BackgroundTransparency"] = 0.5;
+G2L["1e"]["Name"] = [[Send Asshole]];
+G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e"]["Text"] = [[Send Asshole]];
+G2L["1e"]["Position"] = UDim2.new(0.33438, 0, 0.78129, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Asshole.UICorner
+G2L["1f"] = Instance.new("UICorner", G2L["1e"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Asshole.LocalScript
+G2L["20"] = Instance.new("LocalScript", G2L["1e"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Fix Tags
+G2L["21"] = Instance.new("TextButton", G2L["2"]);
+G2L["21"]["BorderSizePixel"] = 0;
+G2L["21"]["TextSize"] = 14;
+G2L["21"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["21"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["21"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["21"]["BackgroundTransparency"] = 0.5;
+G2L["21"]["Name"] = [[Fix Tags]];
+G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21"]["Text"] = [[Fix Tags]];
+G2L["21"]["Position"] = UDim2.new(0.73823, 0, 0.78129, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Fix Tags.UICorner
+G2L["22"] = Instance.new("UICorner", G2L["21"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Fix Tags.LocalScript
+G2L["23"] = Instance.new("LocalScript", G2L["21"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.OtherButton
+G2L["24"] = Instance.new("TextButton", G2L["2"]);
+G2L["24"]["BorderSizePixel"] = 0;
+G2L["24"]["TextSize"] = 14;
+G2L["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["24"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["24"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["24"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["24"]["BackgroundTransparency"] = 0.5;
+G2L["24"]["Name"] = [[OtherButton]];
+G2L["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["24"]["Text"] = [[Switch Bypasser]];
+G2L["24"]["Position"] = UDim2.new(0.73823, 0, 0.6503, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.OtherButton.UICorner
+G2L["25"] = Instance.new("UICorner", G2L["24"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.OtherButton.LocalScript
+G2L["26"] = Instance.new("LocalScript", G2L["24"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.customtextbox
+G2L["27"] = Instance.new("TextBox", G2L["2"]);
+G2L["27"]["CursorPosition"] = -1;
+G2L["27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["BorderSizePixel"] = 0;
+G2L["27"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["27"]["TextWrapped"] = true;
+G2L["27"]["TextSize"] = 14;
+G2L["27"]["Name"] = [[customtextbox]];
+G2L["27"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["27"]["PlaceholderText"] = [[sentence/word here]];
+G2L["27"]["Size"] = UDim2.new(0, 186, 0, 82);
+G2L["27"]["Position"] = UDim2.new(0.60794, 0, 0.19982, 0);
+G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Text"] = [[]];
+G2L["27"]["BackgroundTransparency"] = 0.6;
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.customtextbox.UICorner
+G2L["28"] = Instance.new("UICorner", G2L["27"]);
+G2L["28"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.MainScreenGui.Key System
+G2L["29"] = Instance.new("Frame", G2L["1"]);
+G2L["29"]["BorderSizePixel"] = 0;
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(45, 45, 45);
+G2L["29"]["Size"] = UDim2.new(0, 294, 0, 167);
+G2L["29"]["Position"] = UDim2.new(0.33696, 0, 0.21871, 0);
+G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["Name"] = [[Key System]];
+G2L["29"]["BackgroundTransparency"] = 0.1;
+
+
+-- StarterGui.MainScreenGui.Key System.UICorner
+G2L["2a"] = Instance.new("UICorner", G2L["29"]);
+G2L["2a"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.MainScreenGui.Key System.TextBox
+G2L["2b"] = Instance.new("TextBox", G2L["29"]);
+G2L["2b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2b"]["BorderSizePixel"] = 0;
+G2L["2b"]["TextSize"] = 14;
+G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2b"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["2b"]["Position"] = UDim2.new(0.15986, 0, 0.26347, 0);
+G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["Text"] = [[]];
+G2L["2b"]["BackgroundTransparency"] = 0.6;
+
+
+-- StarterGui.MainScreenGui.Key System.TextBox.UICorner
+G2L["2c"] = Instance.new("UICorner", G2L["2b"]);
+G2L["2c"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.MainScreenGui.Key System.TextButton
+G2L["2d"] = Instance.new("TextButton", G2L["29"]);
+G2L["2d"]["BorderSizePixel"] = 0;
+G2L["2d"]["TextSize"] = 14;
+G2L["2d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2d"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["2d"]["BackgroundTransparency"] = 0.5;
+G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2d"]["Text"] = [[Enter]];
+G2L["2d"]["Position"] = UDim2.new(0.29592, 0, 0.64072, 0);
+
+
+-- StarterGui.MainScreenGui.Key System.TextButton.UICorner
+G2L["2e"] = Instance.new("UICorner", G2L["2d"]);
+
+
+
+-- StarterGui.MainScreenGui.Key System.TextButton.LocalScript
+G2L["2f"] = Instance.new("LocalScript", G2L["2d"]);
+
+
+
+-- StarterGui.MainScreenGui.Key System.LocalScript
+G2L["30"] = Instance.new("LocalScript", G2L["29"]);
+
+
+
+-- StarterGui.MainScreenGui.Key System.TextLabel
+G2L["31"] = Instance.new("TextLabel", G2L["29"]);
+G2L["31"]["BorderSizePixel"] = 0;
+G2L["31"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["31"]["TextSize"] = 18;
+G2L["31"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["31"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["31"]["BackgroundTransparency"] = 1;
+G2L["31"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["31"]["Text"] = [[NewID Chat Bypasser Key System]];
+G2L["31"]["Position"] = UDim2.new(0.15986, 0, -0.03593, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2
+G2L["32"] = Instance.new("Frame", G2L["1"]);
+G2L["32"]["Visible"] = false;
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["32"]["Size"] = UDim2.new(0, 520, 0, 313);
+G2L["32"]["Position"] = UDim2.new(0.35277, 0, 0.11252, 0);
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Name"] = [[ChatBypasser2]];
+G2L["32"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.UICorner
+G2L["33"] = Instance.new("UICorner", G2L["32"]);
+G2L["33"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Title
+G2L["34"] = Instance.new("TextLabel", G2L["32"]);
+G2L["34"]["BorderSizePixel"] = 0;
+G2L["34"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["TextSize"] = 24;
+G2L["34"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["34"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["34"]["BackgroundTransparency"] = 1;
+G2L["34"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["Text"] = [[NewID Chat Bypasser v2]];
+G2L["34"]["Name"] = [[Title]];
+G2L["34"]["Position"] = UDim2.new(0.30602, 0, -0.00078, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Drag
+G2L["35"] = Instance.new("LocalScript", G2L["32"]);
+G2L["35"]["Name"] = [[Drag]];
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Ass
+G2L["36"] = Instance.new("TextButton", G2L["32"]);
+G2L["36"]["BorderSizePixel"] = 0;
+G2L["36"]["TextSize"] = 14;
+G2L["36"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["36"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["36"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["36"]["BackgroundTransparency"] = 0.5;
+G2L["36"]["Name"] = [[Send Ass]];
+G2L["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["36"]["Text"] = [[Send Ass]];
+G2L["36"]["Position"] = UDim2.new(0.33438, 0, 0.60238, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Ass.UICorner
+G2L["37"] = Instance.new("UICorner", G2L["36"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Ass.LocalScript
+G2L["38"] = Instance.new("LocalScript", G2L["36"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Asshole
+G2L["39"] = Instance.new("TextButton", G2L["32"]);
+G2L["39"]["BorderSizePixel"] = 0;
+G2L["39"]["TextSize"] = 14;
+G2L["39"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["39"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["39"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["39"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["39"]["BackgroundTransparency"] = 0.5;
+G2L["39"]["Name"] = [[Send Asshole]];
+G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["39"]["Text"] = [[Send Asshole]];
+G2L["39"]["Position"] = UDim2.new(0.33438, 0, 0.78129, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Asshole.UICorner
+G2L["3a"] = Instance.new("UICorner", G2L["39"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Asshole.LocalScript
+G2L["3b"] = Instance.new("LocalScript", G2L["39"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Bitch
+G2L["3c"] = Instance.new("TextButton", G2L["32"]);
+G2L["3c"]["BorderSizePixel"] = 0;
+G2L["3c"]["TextSize"] = 14;
+G2L["3c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3c"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["3c"]["BackgroundTransparency"] = 0.5;
+G2L["3c"]["Name"] = [[Send Bitch]];
+G2L["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3c"]["Text"] = [[Send Bitch]];
+G2L["3c"]["Position"] = UDim2.new(0.06323, 0, 0.60238, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Bitch.UICorner
+G2L["3d"] = Instance.new("UICorner", G2L["3c"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Bitch.LocalScript
+G2L["3e"] = Instance.new("LocalScript", G2L["3c"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send CockSucker
+G2L["3f"] = Instance.new("TextButton", G2L["32"]);
+G2L["3f"]["BorderSizePixel"] = 0;
+G2L["3f"]["TextSize"] = 14;
+G2L["3f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3f"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["3f"]["BackgroundTransparency"] = 0.5;
+G2L["3f"]["Name"] = [[Send CockSucker]];
+G2L["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3f"]["Text"] = [[Send CockSucker]];
+G2L["3f"]["Position"] = UDim2.new(0.33438, 0, 0.21899, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send CockSucker.UICorner
+G2L["40"] = Instance.new("UICorner", G2L["3f"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send CockSucker.LocalScript
+G2L["41"] = Instance.new("LocalScript", G2L["3f"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Cunt
+G2L["42"] = Instance.new("TextButton", G2L["32"]);
+G2L["42"]["BorderSizePixel"] = 0;
+G2L["42"]["TextSize"] = 14;
+G2L["42"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["42"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["42"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["42"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["42"]["BackgroundTransparency"] = 0.5;
+G2L["42"]["Name"] = [[Send Cunt]];
+G2L["42"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["42"]["Text"] = [[Send Cunt]];
+G2L["42"]["Position"] = UDim2.new(0.33438, 0, 0.41069, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Cunt.UICorner
+G2L["43"] = Instance.new("UICorner", G2L["42"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Cunt.LocalScript
+G2L["44"] = Instance.new("LocalScript", G2L["42"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Fuck
+G2L["45"] = Instance.new("TextButton", G2L["32"]);
+G2L["45"]["BorderSizePixel"] = 0;
+G2L["45"]["TextSize"] = 14;
+G2L["45"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["45"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["45"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["45"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["45"]["BackgroundTransparency"] = 0.5;
+G2L["45"]["Name"] = [[Send Fuck]];
+G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["45"]["Text"] = [[Send Fuck]];
+G2L["45"]["Position"] = UDim2.new(0.06323, 0, 0.21899, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Fuck.UICorner
+G2L["46"] = Instance.new("UICorner", G2L["45"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Fuck.LocalScript
+G2L["47"] = Instance.new("LocalScript", G2L["45"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Shit
+G2L["48"] = Instance.new("TextButton", G2L["32"]);
+G2L["48"]["BorderSizePixel"] = 0;
+G2L["48"]["TextSize"] = 14;
+G2L["48"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["48"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["48"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["48"]["BackgroundTransparency"] = 0.5;
+G2L["48"]["Name"] = [[Send Shit]];
+G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["Text"] = [[Send Shit]];
+G2L["48"]["Position"] = UDim2.new(0.06323, 0, 0.41069, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Shit.UICorner
+G2L["49"] = Instance.new("UICorner", G2L["48"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Shit.LocalScript
+G2L["4a"] = Instance.new("LocalScript", G2L["48"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Whore
+G2L["4b"] = Instance.new("TextButton", G2L["32"]);
+G2L["4b"]["BorderSizePixel"] = 0;
+G2L["4b"]["TextSize"] = 14;
+G2L["4b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4b"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["4b"]["BackgroundTransparency"] = 0.5;
+G2L["4b"]["Name"] = [[Send Whore]];
+G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4b"]["Text"] = [[Send Whore]];
+G2L["4b"]["Position"] = UDim2.new(0.06323, 0, 0.78129, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Whore.UICorner
+G2L["4c"] = Instance.new("UICorner", G2L["4b"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Whore.LocalScript
+G2L["4d"] = Instance.new("LocalScript", G2L["4b"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.customtextbox
+G2L["4e"] = Instance.new("TextBox", G2L["32"]);
+G2L["4e"]["CursorPosition"] = -1;
+G2L["4e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4e"]["BorderSizePixel"] = 0;
+G2L["4e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["4e"]["TextWrapped"] = true;
+G2L["4e"]["TextSize"] = 14;
+G2L["4e"]["Name"] = [[customtextbox]];
+G2L["4e"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["4e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4e"]["PlaceholderText"] = [[sentence/word here]];
+G2L["4e"]["Size"] = UDim2.new(0, 186, 0, 82);
+G2L["4e"]["Position"] = UDim2.new(0.60794, 0, 0.19663, 0);
+G2L["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4e"]["Text"] = [[]];
+G2L["4e"]["BackgroundTransparency"] = 0.6;
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.customtextbox.UICorner
+G2L["4f"] = Instance.new("UICorner", G2L["4e"]);
+G2L["4f"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.sendbuttonfortextbox
+G2L["50"] = Instance.new("TextButton", G2L["32"]);
+G2L["50"]["BorderSizePixel"] = 0;
+G2L["50"]["TextSize"] = 14;
+G2L["50"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["50"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["50"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["50"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["50"]["BackgroundTransparency"] = 0.5;
+G2L["50"]["Name"] = [[sendbuttonfortextbox]];
+G2L["50"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["50"]["Text"] = [[Send]];
+G2L["50"]["Position"] = UDim2.new(0.7363, 0, 0.49695, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.sendbuttonfortextbox.UICorner
+G2L["51"] = Instance.new("UICorner", G2L["50"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.sendbuttonfortextbox.LocalScript
+G2L["52"] = Instance.new("LocalScript", G2L["50"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Fix Tags
+G2L["53"] = Instance.new("TextButton", G2L["32"]);
+G2L["53"]["BorderSizePixel"] = 0;
+G2L["53"]["TextSize"] = 14;
+G2L["53"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["53"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["53"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["53"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["53"]["BackgroundTransparency"] = 0.5;
+G2L["53"]["Name"] = [[Fix Tags]];
+G2L["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["53"]["Text"] = [[Fix Tags]];
+G2L["53"]["Position"] = UDim2.new(0.73823, 0, 0.78129, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Fix Tags.UICorner
+G2L["54"] = Instance.new("UICorner", G2L["53"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.Fix Tags.LocalScript
+G2L["55"] = Instance.new("LocalScript", G2L["53"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.OtherButton
+G2L["56"] = Instance.new("TextButton", G2L["32"]);
+G2L["56"]["BorderSizePixel"] = 0;
+G2L["56"]["TextSize"] = 14;
+G2L["56"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["56"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["56"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["56"]["Size"] = UDim2.new(0, 119, 0, 33);
+G2L["56"]["BackgroundTransparency"] = 0.5;
+G2L["56"]["Name"] = [[OtherButton]];
+G2L["56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["56"]["Text"] = [[Switch Bypasser]];
+G2L["56"]["Position"] = UDim2.new(0.73823, 0, 0.63433, 0);
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.OtherButton.UICorner
+G2L["57"] = Instance.new("UICorner", G2L["56"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser2.OtherButton.LocalScript
+G2L["58"] = Instance.new("LocalScript", G2L["56"]);
+
+
+
+-- StarterGui.MainScreenGui.ChatBypasser.Send Fuck.LocalScript
+local function C_6()
+local script = G2L["6"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
 		end
-		
-		-- Example usage
-		local exampleText = "fuck"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script9
-		local script = Script9
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
 			modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
 		end
-		
-		-- Example usage
-		local exampleText = "shit"
-		modifyText(exampleText)
-		
-		end)
-		
+	end
+	
+	-- Example usage
+	local exampleText = "fuck"
+	modifyText(exampleText)
+	
 	end)
-	spawn(function() --Source for Script11
-		local script = Script11
-		-- References
-		local frame = script.Parent
-		
-		-- Variables to track dragging state
-		local dragging = false
-		local dragStart
-		local startPos
-		
-		-- Function to start dragging
-		frame.InputBegan:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 then
-				dragging = true
-				dragStart = input.Position
-				startPos = frame.Position
-		
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragging = false
-					end
-				end)
-			end
-		end)
-		
-		-- Function to update frame position while dragging
-		frame.InputChanged:Connect(function(input)
-			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
-				local delta = input.Position - dragStart
-				frame.Position = UDim2.new(
-					startPos.X.Scale,
-					startPos.X.Offset + delta.X,
-					startPos.Y.Scale,
-					startPos.Y.Offset + delta.Y
-				)
-			end
-		end)
-		
+	
+end;
+task.spawn(C_6);
+-- StarterGui.MainScreenGui.ChatBypasser.Send Shit.LocalScript
+local function C_9()
+local script = G2L["9"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+		modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "shit"
+	modifyText(exampleText)
+	
 	end)
-	spawn(function() --Source for Script14
-		local script = Script14
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+	
+end;
+task.spawn(C_9);
+-- StarterGui.MainScreenGui.ChatBypasser.Drag
+local function C_b()
+local script = G2L["b"];
+	-- References
+	local frame = script.Parent
+	
+	-- Variables to track dragging state
+	local dragging = false
+	local dragStart
+	local startPos
+	
+	-- Function to start dragging
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	-- Function to update frame position while dragging
+	frame.InputChanged:Connect(function(input)
+		if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(
+				startPos.X.Scale,
+				startPos.X.Offset + delta.X,
+				startPos.Y.Scale,
+				startPos.Y.Offset + delta.Y
+			)
+		end
+	end)
+	
+end;
+task.spawn(C_b);
+-- StarterGui.MainScreenGui.ChatBypasser.Send Bitch.LocalScript
+local function C_e()
+local script = G2L["e"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+		modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "bitch"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_e);
+-- StarterGui.MainScreenGui.ChatBypasser.sendbuttonfortextbox.LocalScript
+local function C_11()
+local script = G2L["11"];
+	local button = script.Parent
+	local customtextbox = script.Parent.Parent:WaitForChild("customtextbox")
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
 			modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
 		end
-		
-		-- Example usage
-		local exampleText = "bitch"
-		modifyText(exampleText)
-		
-		end)
-		
+	end
+	
+	
+		modifyText(customtextbox.Text)
+	
+	
 	end)
-	spawn(function() --Source for Script19
-		local script = Script19
-		local button = script.Parent
-		local customtextbox = script.Parent.Parent:WaitForChild("customtextbox")
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+end;
+task.spawn(C_11);
+-- StarterGui.MainScreenGui.ChatBypasser.Send CockSucker.LocalScript
+local function C_14()
+local script = G2L["14"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
 		end
-		
-		
-			modifyText(customtextbox.Text)
-		
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script22
-		local script = Script22
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "cocksucker"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script25
-		local script = Script25
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "cunt"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script28
-		local script = Script28
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "ass"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script31
-		local script = Script31
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "whores"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script34
-		local script = Script34
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["A"] = "•••â€¢•••ค•••â€¢•••",
-					["B"] = "•••â€¢•••๖•••â€¢•••",
-					["C"] = "•••â€¢•••¢•••â€¢•••",
-					["D"] = "•••â€¢•••ɖ•••â€¢•••",
-					["E"] = "•••â€¢•••є•••â€¢•••",                                              
-					["F"] = "•••â€¢•••ʄ•••â€¢•••",
-					["G"] = "•••â€¢•••ɢ•••â€¢•••",
-					["H"] = "•••â€¢•••ɧ•••â€¢•••",
-					["I"] = "•••â€¢•••ı•••â€¢•••",
-					["J"] = "•••â€¢•••j̵•••â€¢•••",
-					["K"] = "•••â€¢•••к•••â€¢•••",
-					["L"] = "•••â€¢•••ℓ•••â€¢•••",
-					["M"] = "•••â€¢•••ʍ•••â€¢•••",
-					["N"] = "•••â€¢•••ŋ•••â€¢•••",
-					["O"] = "•••â€¢•••ø•••â€¢•••",
-					["P"] = "•••â€¢•••ρ•••â€¢•••",
-					["Q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["R"] = "•••â€¢•••ɾ•••â€¢•••",
-					["S"] = "•••â€¢•••ʂ•••â€¢•••",
-					["T"] = "•••â€¢•••ɬ•••â€¢•••",
-					["U"] = "•••â€¢•••µ•••â€¢•••",
-					["V"] = "•••â€¢•••v̵•••â€¢•••",
-					["W"] = "•••â€¢•••ω•••â€¢•••",
-					["X"] = "•••â€¢•••x̵•••â€¢•••",
-					["Y"] = "•••â€¢•••ყ•••â€¢•••",
-					["Z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-					["a"] = "•••â€¢•••ค•••â€¢•••",
-					["b"] = "•••â€¢•••๖•••â€¢•••",
-					["c"] = "•••â€¢•••¢•••â€¢•••",
-					["d"] = "•••â€¢•••ɖ•••â€¢•••",
-					["e"] = "•••â€¢•••є•••â€¢•••",                                              
-					["f"] = "•••â€¢•••ʄ•••â€¢•••",
-					["g"] = "•••â€¢•••ɢ•••â€¢•••",
-					["h"] = "•••â€¢•••ɧ•••â€¢•••",
-					["i"] = "•••â€¢•••ı•••â€¢•••",
-					["j"] = "•••â€¢•••j̵•••â€¢•••",
-					["k"] = "•••â€¢•••к•••â€¢•••",
-					["l"] = "•••â€¢•••ℓ•••â€¢•••",
-					["m"] = "•••â€¢•••ʍ•••â€¢•••",
-					["n"] = "•••â€¢•••ŋ•••â€¢•••",
-					["o"] = "•••â€¢•••ø•••â€¢•••",
-					["p"] = "•••â€¢•••ρ•••â€¢•••",
-					["q"] = "•••â€¢•••ɋ•••â€¢•••",
-					["r"] = "•••â€¢•••ɾ•••â€¢•••",
-					["s"] = "•••â€¢•••ʂ•••â€¢•••",
-					["t"] = "•••â€¢•••ɬ•••â€¢•••",
-					["u"] = "•••â€¢•••µ•••â€¢•••",
-					["v"] = "•••â€¢•••v̵•••â€¢•••",
-					["w"] = "•••â€¢•••ω•••â€¢•••",
-					["x"] = "•••â€¢•••x̵•••â€¢•••",
-					["y"] = "•••â€¢•••ყ•••â€¢•••",
-					["z"] = "•••â€¢•••ƶ•••â€¢•••",
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "asshole"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script37
-		local script = Script37
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "ABC123"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script40
-		local script = Script40
-		-- Assuming the button is a part in the GUI
-		local button = script.Parent -- Button that will trigger the action
-		local w = script.Parent.Parent.Parent:FindFirstChild("ChatBypasser2")
-		local l = script.Parent.Parent.Parent:FindFirstChild("ChatBypasser")
-		
-		button.MouseButton1Click:Connect(function()
-			w.Visible = true
-			l.Visible = false
-		end)
-		
-	end)
-	spawn(function() --Source for Script47
-		local script = Script47
-		local chatbypasserframe = script.Parent.Parent.Parent:WaitForChild("ChatBypasser")
-		
-		-- References to UI elements
-		local textBox = script.Parent.Parent.TextBox -- Adjust the path if necessary
-		local button = script.Parent
-		local mainframe = script.Parent.Parent
-		
-		local correctCode = "newidch4t" -- The correct code
-		
-		-- Button click event
-		button.MouseButton1Click:Connect(function()
-			local enteredText = textBox.Text -- Get the text entered in the TextBox
-		
-			if enteredText == correctCode then
-				-- Correct code: Execute your Lua script here
-				chatbypasserframe.Visible = true
-				mainframe.Visible = false
-		
-				-- Assuming 'chat' refers to the correct button or UI element
-				local chat = chatbypasserframe:WaitForChild("ChatButton") -- Adjust path to the chat button if necessary
-				chat.MouseButton1Click:Connect(function()
-					local inputString = textBox.Text  -- Fix typo from 'TextBax' to 'textBox'
-					modifyText(inputString)           -- Assuming 'modifyText' is a function defined elsewhere
-		
-					local tween = createButtonTween(chat)  -- Assuming 'createButtonTween' is a function defined elsewhere
-					tween:Play()
-		
-					tween.Completed:Connect(function()
-						chat.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-					end)
-				end)
-		
-		
-				print("[NewID Chat Bypasser] > Correct Key!")
-				-- Replace the line below with your desired Lua script
-			else
-				print("[NewID Chat Bypasser] > Wrong Key")
-			end
-		end)
-		
-	end)
-	spawn(function() --Source for Script48
-		local script = Script48
-		-- References
-		local frame = script.Parent
-		
-		-- Variables to track dragging state
-		local dragging = false
-		local dragStart
-		local startPos
-		
-		-- Function to start dragging
-		frame.InputBegan:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 then
-				dragging = true
-				dragStart = input.Position
-				startPos = frame.Position
-		
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragging = false
-					end
-				end)
-			end
-		end)
-		
-		-- Function to update frame position while dragging
-		frame.InputChanged:Connect(function(input)
-			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
-				local delta = input.Position - dragStart
-				frame.Position = UDim2.new(
-					startPos.X.Scale,
-					startPos.X.Offset + delta.X,
-					startPos.Y.Scale,
-					startPos.Y.Offset + delta.Y
-				)
-			end
-		end)
-		
-	end)
-	spawn(function() --Source for Script53
-		local script = Script53
-		-- References
-		local frame = script.Parent
-		
-		-- Variables to track dragging state
-		local dragging = false
-		local dragStart
-		local startPos
-		
-		-- Function to start dragging
-		frame.InputBegan:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 then
-				dragging = true
-				dragStart = input.Position
-				startPos = frame.Position
-		
-				input.Changed:Connect(function()
-					if input.UserInputState == Enum.UserInputState.End then
-						dragging = false
-					end
-				end)
-			end
-		end)
-		
-		-- Function to update frame position while dragging
-		frame.InputChanged:Connect(function(input)
-			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
-				local delta = input.Position - dragStart
-				frame.Position = UDim2.new(
-					startPos.X.Scale,
-					startPos.X.Offset + delta.X,
-					startPos.Y.Scale,
-					startPos.Y.Offset + delta.Y
-				)
-			end
-		end)
-		
-	end)
-	spawn(function() --Source for Script56
-		local script = Script56
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "ass"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script59
-		local script = Script59
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "asshole"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script62
-		local script = Script62
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
 			modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
 		end
-		
-		-- Example usage
-		local exampleText = "bitch"
-		modifyText(exampleText)
-		
-		end)
-		
+	end
+	
+	-- Example usage
+	local exampleText = "cocksucker"
+	modifyText(exampleText)
+	
 	end)
-	spawn(function() --Source for Script65
-		local script = Script65
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+end;
+task.spawn(C_14);
+-- StarterGui.MainScreenGui.ChatBypasser.Send Cunt.LocalScript
+local function C_17()
+local script = G2L["17"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
 		end
-		
-		-- Example usage
-		local exampleText = "cocksucker"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script68
-		local script = Script68
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "cunt"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script71
-		local script = Script71
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
-		end
-		
-		-- Example usage
-		local exampleText = "fuck"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script74
-		local script = Script74
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-		
-				}
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
 			modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
 		end
-		
-		-- Example usage
-		local exampleText = "shit"
-		modifyText(exampleText)
-		
-		end)
-		
+	end
+	
+	-- Example usage
+	local exampleText = "cunt"
+	modifyText(exampleText)
+	
 	end)
-	spawn(function() --Source for Script77
-		local script = Script77
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+end;
+task.spawn(C_17);
+-- StarterGui.MainScreenGui.ChatBypasser.Send Ass.LocalScript
+local function C_1a()
+local script = G2L["1a"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
 		end
-		
-		-- Example usage
-		local exampleText = "whores"
-		modifyText(exampleText)
-		
-		end)
-		
-	end)
-	spawn(function() --Source for Script82
-		local script = Script82
-		local button = script.Parent
-		local customtextbox = script.Parent.Parent:WaitForChild("customtextbox")
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
-					["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
-					["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
-					["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
-					["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
-		
-		
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
 		end
-		
-		
-			modifyText(customtextbox.Text)
-		
-		
-		end)
-		
+	end
+	
+	-- Example usage
+	local exampleText = "ass"
+	modifyText(exampleText)
+	
 	end)
-	spawn(function() --Source for Script85
-		local script = Script85
-		local button = script.Parent
-		
-		button.MouseButton1Click:Connect(function()
-		
-		
-		local function modifyText(input)
-				local replacements = {
-					
-				}
-		
-		
-			-- Apply replacements
-			local modifiedText = input
-			for word, replacement in pairs(replacements) do
-				modifiedText = modifiedText:gsub(word, replacement)
-			end
-		
-			-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
-			modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
-				modifiedText = modifiedText:gsub("•", "\u{0327}")
-		
-			-- Add additional formatting (emoji and other specific manipulations)
-			modifiedText = modifiedText:gsub("I", "â„¹")
-			modifiedText = modifiedText:gsub("|", "\r")
-			modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
-		
-			-- Send the modified message
-			local A_1 = modifiedText
-			local A_2 = "All"
-		
-			if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-				game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
-			else
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
-			end
+	
+end;
+task.spawn(C_1a);
+-- StarterGui.MainScreenGui.ChatBypasser.Send Whore.LocalScript
+local function C_1d()
+local script = G2L["1d"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
 		end
-		
-		-- Example usage
-		local exampleText = "ABC123"
-		modifyText(exampleText)
-		
-		end)
-		
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "whores"
+	modifyText(exampleText)
+	
 	end)
-	spawn(function() --Source for Script88
-		local script = Script88
-		-- Assuming the button is a part in the GUI
-		local button = script.Parent -- Button that will trigger the action
-		local w = script.Parent.Parent.Parent:FindFirstChild("ChatBypasser2")
-		local l = script.Parent.Parent.Parent:FindFirstChild("ChatBypasser")
-		
-		button.MouseButton1Click:Connect(function()
-			w.Visible = false
-			l.Visible = true
-		end)
-		
+	
+end;
+task.spawn(C_1d);
+-- StarterGui.MainScreenGui.ChatBypasser.Send Asshole.LocalScript
+local function C_20()
+local script = G2L["20"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["A"] = "•••â€¢•••ค•••â€¢•••",
+				["B"] = "•••â€¢•••๖•••â€¢•••",
+				["C"] = "•••â€¢•••¢•••â€¢•••",
+				["D"] = "•••â€¢•••ɖ•••â€¢•••",
+				["E"] = "•••â€¢•••є•••â€¢•••",                                              
+				["F"] = "•••â€¢•••ʄ•••â€¢•••",
+				["G"] = "•••â€¢•••ɢ•••â€¢•••",
+				["H"] = "•••â€¢•••ɧ•••â€¢•••",
+				["I"] = "•••â€¢•••ı•••â€¢•••",
+				["J"] = "•••â€¢•••j̵•••â€¢•••",
+				["K"] = "•••â€¢•••к•••â€¢•••",
+				["L"] = "•••â€¢•••ℓ•••â€¢•••",
+				["M"] = "•••â€¢•••ʍ•••â€¢•••",
+				["N"] = "•••â€¢•••ŋ•••â€¢•••",
+				["O"] = "•••â€¢•••ø•••â€¢•••",
+				["P"] = "•••â€¢•••ρ•••â€¢•••",
+				["Q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["R"] = "•••â€¢•••ɾ•••â€¢•••",
+				["S"] = "•••â€¢•••ʂ•••â€¢•••",
+				["T"] = "•••â€¢•••ɬ•••â€¢•••",
+				["U"] = "•••â€¢•••µ•••â€¢•••",
+				["V"] = "•••â€¢•••v̵•••â€¢•••",
+				["W"] = "•••â€¢•••ω•••â€¢•••",
+				["X"] = "•••â€¢•••x̵•••â€¢•••",
+				["Y"] = "•••â€¢•••ყ•••â€¢•••",
+				["Z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+				["a"] = "•••â€¢•••ค•••â€¢•••",
+				["b"] = "•••â€¢•••๖•••â€¢•••",
+				["c"] = "•••â€¢•••¢•••â€¢•••",
+				["d"] = "•••â€¢•••ɖ•••â€¢•••",
+				["e"] = "•••â€¢•••є•••â€¢•••",                                              
+				["f"] = "•••â€¢•••ʄ•••â€¢•••",
+				["g"] = "•••â€¢•••ɢ•••â€¢•••",
+				["h"] = "•••â€¢•••ɧ•••â€¢•••",
+				["i"] = "•••â€¢•••ı•••â€¢•••",
+				["j"] = "•••â€¢•••j̵•••â€¢•••",
+				["k"] = "•••â€¢•••к•••â€¢•••",
+				["l"] = "•••â€¢•••ℓ•••â€¢•••",
+				["m"] = "•••â€¢•••ʍ•••â€¢•••",
+				["n"] = "•••â€¢•••ŋ•••â€¢•••",
+				["o"] = "•••â€¢•••ø•••â€¢•••",
+				["p"] = "•••â€¢•••ρ•••â€¢•••",
+				["q"] = "•••â€¢•••ɋ•••â€¢•••",
+				["r"] = "•••â€¢•••ɾ•••â€¢•••",
+				["s"] = "•••â€¢•••ʂ•••â€¢•••",
+				["t"] = "•••â€¢•••ɬ•••â€¢•••",
+				["u"] = "•••â€¢•••µ•••â€¢•••",
+				["v"] = "•••â€¢•••v̵•••â€¢•••",
+				["w"] = "•••â€¢•••ω•••â€¢•••",
+				["x"] = "•••â€¢•••x̵•••â€¢•••",
+				["y"] = "•••â€¢•••ყ•••â€¢•••",
+				["z"] = "•••â€¢•••ƶ•••â€¢•••",
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "asshole"
+	modifyText(exampleText)
+	
 	end)
-end
-createGui(game.Players.LocalPlayer:WaitForChild("PlayerGui"))
+	
+end;
+task.spawn(C_20);
+-- StarterGui.MainScreenGui.ChatBypasser.Fix Tags.LocalScript
+local function C_23()
+local script = G2L["23"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "ABC123"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_23);
+-- StarterGui.MainScreenGui.ChatBypasser.OtherButton.LocalScript
+local function C_26()
+local script = G2L["26"];
+	-- Assuming the button is a part in the GUI
+	local button = script.Parent -- Button that will trigger the action
+	local w = script.Parent.Parent.Parent:FindFirstChild("ChatBypasser2")
+	local l = script.Parent.Parent.Parent:FindFirstChild("ChatBypasser")
+	
+	button.MouseButton1Click:Connect(function()
+		w.Visible = true
+		l.Visible = false
+	end)
+	
+end;
+task.spawn(C_26);
+-- StarterGui.MainScreenGui.Key System.TextButton.LocalScript
+local function C_2f()
+local script = G2L["2f"];
+	local chatbypasserframe = script.Parent.Parent.Parent:WaitForChild("ChatBypasser")
+	
+	-- References to UI elements
+	local textBox = script.Parent.Parent.TextBox -- Adjust the path if necessary
+	local button = script.Parent
+	local mainframe = script.Parent.Parent
+	
+	local correctCode = "newidch4t" -- The correct code
+	
+	-- Button click event
+	button.MouseButton1Click:Connect(function()
+		local enteredText = textBox.Text -- Get the text entered in the TextBox
+	
+		if enteredText == correctCode then
+			-- Correct code: Execute your Lua script here
+			chatbypasserframe.Visible = true
+			mainframe.Visible = false
+	
+			-- Assuming 'chat' refers to the correct button or UI element
+			local chat = chatbypasserframe:WaitForChild("ChatButton") -- Adjust path to the chat button if necessary
+			chat.MouseButton1Click:Connect(function()
+				local inputString = textBox.Text  -- Fix typo from 'TextBax' to 'textBox'
+				modifyText(inputString)           -- Assuming 'modifyText' is a function defined elsewhere
+	
+				local tween = createButtonTween(chat)  -- Assuming 'createButtonTween' is a function defined elsewhere
+				tween:Play()
+	
+				tween.Completed:Connect(function()
+					chat.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+				end)
+			end)
+	
+	
+			print("[NewID Chat Bypasser] > Correct Key!")
+			-- Replace the line below with your desired Lua script
+		else
+			print("[NewID Chat Bypasser] > Wrong Key")
+		end
+	end)
+	
+end;
+task.spawn(C_2f);
+-- StarterGui.MainScreenGui.Key System.LocalScript
+local function C_30()
+local script = G2L["30"];
+	-- References
+	local frame = script.Parent
+	
+	-- Variables to track dragging state
+	local dragging = false
+	local dragStart
+	local startPos
+	
+	-- Function to start dragging
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	-- Function to update frame position while dragging
+	frame.InputChanged:Connect(function(input)
+		if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(
+				startPos.X.Scale,
+				startPos.X.Offset + delta.X,
+				startPos.Y.Scale,
+				startPos.Y.Offset + delta.Y
+			)
+		end
+	end)
+	
+end;
+task.spawn(C_30);
+-- StarterGui.MainScreenGui.ChatBypasser2.Drag
+local function C_35()
+local script = G2L["35"];
+	-- References
+	local frame = script.Parent
+	
+	-- Variables to track dragging state
+	local dragging = false
+	local dragStart
+	local startPos
+	
+	-- Function to start dragging
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	-- Function to update frame position while dragging
+	frame.InputChanged:Connect(function(input)
+		if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+			local delta = input.Position - dragStart
+			frame.Position = UDim2.new(
+				startPos.X.Scale,
+				startPos.X.Offset + delta.X,
+				startPos.Y.Scale,
+				startPos.Y.Offset + delta.Y
+			)
+		end
+	end)
+	
+end;
+task.spawn(C_35);
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Ass.LocalScript
+local function C_38()
+local script = G2L["38"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "ass"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_38);
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Asshole.LocalScript
+local function C_3b()
+local script = G2L["3b"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "asshole"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_3b);
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Bitch.LocalScript
+local function C_3e()
+local script = G2L["3e"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+		modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "bitch"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_3e);
+-- StarterGui.MainScreenGui.ChatBypasser2.Send CockSucker.LocalScript
+local function C_41()
+local script = G2L["41"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "cocksucker"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_41);
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Cunt.LocalScript
+local function C_44()
+local script = G2L["44"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "cunt"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_44);
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Fuck.LocalScript
+local function C_47()
+local script = G2L["47"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "fuck"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_47);
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Shit.LocalScript
+local function C_4a()
+local script = G2L["4a"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+	
+			}
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+		modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "shit"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_4a);
+-- StarterGui.MainScreenGui.ChatBypasser2.Send Whore.LocalScript
+local function C_4d()
+local script = G2L["4d"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "whores"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_4d);
+-- StarterGui.MainScreenGui.ChatBypasser2.sendbuttonfortextbox.LocalScript
+local function C_52()
+local script = G2L["52"];
+	local button = script.Parent
+	local customtextbox = script.Parent.Parent:WaitForChild("customtextbox")
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				["a"] = "ạ̱", ["b"] = "ḅ̱", ["c"] = "c̣̱", ["d"] = "ḍ̱", ["e"] = "ẹ̱",
+				["f"] = "̱̱f̣̱", ["g"] = "ɡ̣̱", ["h"] = "ḥ̱", ["i"] = "ị̱", ["j"] = "ј̣̱",
+				["k"] = "ḳ̱", ["l"] = "ḷ̱", ["m"] = "ṃ̱", ["n"] = "ṇ̱", ["o"] = "ọ̱",
+				["p"] = "р̣̱", ["q"] = "q̣̱", ["r"] = "ṛ̱", ["s"] = "ṣ̱", ["t"] = "ṭ̱",
+				["u"] = "ụ̱", ["v"] = "ṿ̱", ["w"] = "ẉ̱", ["x"] = "ẋ̱", ["y"] = "ỵ̱", ["z"] = "ẓ̱", ["|"] = "\r"
+	
+	
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	
+		modifyText(customtextbox.Text)
+	
+	
+	end)
+	
+end;
+task.spawn(C_52);
+-- StarterGui.MainScreenGui.ChatBypasser2.Fix Tags.LocalScript
+local function C_55()
+local script = G2L["55"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+	
+	local function modifyText(input)
+			local replacements = {
+				
+			}
+	
+	
+		-- Apply replacements
+		local modifiedText = input
+		for word, replacement in pairs(replacements) do
+			modifiedText = modifiedText:gsub(word, replacement)
+		end
+	
+		-- Replace "â€¢" with the Unicode character \u{0327} (combining dot below)
+		modifiedText = modifiedText:gsub("â€¢", "\u{0327}")
+			modifiedText = modifiedText:gsub("•", "\u{0327}")
+	
+		-- Add additional formatting (emoji and other specific manipulations)
+		modifiedText = modifiedText:gsub("I", "â„¹")
+		modifiedText = modifiedText:gsub("|", "\r")
+		modifiedText = modifiedText:gsub("\u{0327}", "")  -- Clean unwanted characters
+	
+		-- Send the modified message
+		local A_1 = modifiedText
+		local A_2 = "All"
+	
+		if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+			game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(A_1)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+		end
+	end
+	
+	-- Example usage
+	local exampleText = "ABC123"
+	modifyText(exampleText)
+	
+	end)
+	
+end;
+task.spawn(C_55);
+-- StarterGui.MainScreenGui.ChatBypasser2.OtherButton.LocalScript
+local function C_58()
+local script = G2L["58"];
+	-- Assuming the button is a part in the GUI
+	local button = script.Parent -- Button that will trigger the action
+	local w = script.Parent.Parent.Parent:FindFirstChild("ChatBypasser2")
+	local l = script.Parent.Parent.Parent:FindFirstChild("ChatBypasser")
+	
+	button.MouseButton1Click:Connect(function()
+		w.Visible = false
+		l.Visible = true
+	end)
+	
+end;
+task.spawn(C_58);
+
+return G2L["1"], require;
