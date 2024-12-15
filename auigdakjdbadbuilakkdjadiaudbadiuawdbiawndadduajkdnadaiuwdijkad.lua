@@ -1701,7 +1701,7 @@ local function createGui(parent)
 		local button = script.Parent
 		local mainframe = script.Parent.Parent
 		
-		local correctCode = "newidch4t" -- The correct code
+		local correctCode = "newidch4tbypass" -- The correct code
 		
 		-- Button click event
 		button.MouseButton1Click:Connect(function()
